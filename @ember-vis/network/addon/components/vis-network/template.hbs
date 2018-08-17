@@ -1,0 +1,5 @@
+<div id={{elementId}} class={{class}}></div>
+{{yield (hash
+	node=(component 'vis-timeline/node' container=this)
+    edge=(component 'vis-timeline/edge' container=this)
+)}}
